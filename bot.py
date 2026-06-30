@@ -15,8 +15,8 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).parent
-MEDIA_DIR = BASE_DIR / "media"
-MATERIALS_DIR = BASE_DIR / "materials"
+MEDIA_DIR = BASE_DIR
+MATERIALS_DIR = BASE_DIR
 
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
